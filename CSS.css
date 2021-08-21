@@ -1,0 +1,56 @@
+
+
+
+.bot{
+  height: 50%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  }/* Split the screen in half */
+.split {
+  height: 50%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.gfont{
+  font-family: 'Rampart One', cursive;
+}
+.gfont2{
+
+  font-family: 'Alumni Sans', sans-serif;
+;
+}
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #C2F784;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
